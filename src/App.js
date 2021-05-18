@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import Table from './Table'
-import './App.css';
+import React from 'react';
+import Deck from "./Deck"
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+      <div>
+        <Deck />
+      </div>
   );
 }
 
